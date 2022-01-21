@@ -3,14 +3,16 @@
  A rainha achou o trabalho barato e pediu que o serviço fosse executado, sem se dar conta de que seria impossível efetuar o pagamento. Faça um algoritmo para calcular o número de grãos que o monge esperava receber.
  */
 // Recebe variaveis.
- var quadro=0,grao=1,total=1;
+var quadro = 0,
+  grao = 1,
+  total = 1;
 // soma 1 emqnato menor que 64.
- while (quadro<64){
-    quadro++; 
-    // Calcula N de graos.
-    grao=grao*2;
-    // Calcula o total.
-    total= total+grao;
- };
- // Mostra o resultado.
- console.log('O total será:' ,total);
+while (quadro < 64) {
+  quadro++;
+  // Calcula N de graos.
+  grao = grao * 2;
+  // Calcula o total.
+  total = total + grao;
+}
+// Mostra o resultado.
+console.log("O total será:", total);

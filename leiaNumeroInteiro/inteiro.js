@@ -3,15 +3,15 @@
 
 var n1;
 
-function inteiro(){
-    // Recebe o numero.
-    n1 = Number(prompt('Digite um numero'));
-    // Verifica se par ou impar e mostra na tela.
-    if (n1%2==0) console.log('O número é par.')
-    else console.log('O número é impar.');
-    // Verifica se e positivo,negativo ou nulo e mostra na tela.
-    if (n1==0) console.log('O número é nulo');
-    if (n1>0) console.log('O número é positivo.');
-    if(n1<0) console.log('O número é negativo.');
-};
+function inteiro() {
+  // Recebe o numero.
+  n1 = Number(prompt("Digite um numero"));
+  // Verifica se par ou impar e mostra na tela.
+  if (n1 % 2 == 0) console.log("O número é par.");
+  else console.log("O número é impar.");
+  // Verifica se e positivo,negativo ou nulo e mostra na tela.
+  if (n1 == 0) console.log("O número é nulo");
+  if (n1 > 0) console.log("O número é positivo.");
+  if (n1 < 0) console.log("O número é negativo.");
+}
 inteiro();
